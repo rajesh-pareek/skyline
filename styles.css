@@ -13,6 +13,9 @@
     box-sizing: border-box;
 }
 
+html{
+    transition: all 3s ease-in-out;
+}
 body {
     height: 100vh;
     margin: 0;
@@ -278,10 +281,10 @@ body {
 
 @media (max-width: 1000px) {
     :root {
-        --building-color1: #000;
-        --building-color2: #000;
-        --building-color3: #000;
-        --building-color4: #000;
+        --building-color1: #aa80ff;
+        --building-color2: #66cc99;
+        --building-color3: #cc6699;
+        --building-color4: #538cc6;
         --window-color1: #777;
         --window-color2: #777;
         --window-color3: #777;
